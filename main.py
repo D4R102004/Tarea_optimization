@@ -1,23 +1,35 @@
-from funcion.function import func
-from algoritmos.gradiente_descendente import gradiente_descendente
-from algoritmos.newton import newton_method
-from graficar.grafico import plot_surface
+"""
+main.py
+------------------------------------
+Archivo principal para ejecutar el flujo completo:
+1. Corre los experimentos de optimización
+2. Analiza los resultados generados
+------------------------------------
+"""
 
-import numpy as np
+import os
+import experimentos
+import analizar_resultados
 
 if __name__ == "__main__":
-    print("==== OPTIMIZACIÓN ====")
+    print("🚀 INICIANDO EXPERIMENTOS...")
+    experimentos.correr_experimentos()
 
-    x0 = np.array([1.0, -1.0])  # punto inicial
-    print("Punto inicial:", x0)
+    print("\n🔍 ANALIZANDO RESULTADOS...")
+    if os.path.exists("resultados.json"):
+        analizar_resultados.__main__ = None  # Evita ejecución duplicada en imports
+        analizar_resultados.experimentos = analizar_resultados.cargar_resultados("resultados.json")
+        if len(analizar_resultados.experimentos) == 0:
+            print("❌ No hay resultados para analizar.")
+        else:
+            stats = analizar_resultados.calcular_estadisticas(analizar_resultados.experimentos)
+            print("\n📊 RESUMEN ESTADÍSTICO (desde main.py):")
+            for alg, s in stats.items():
+                print(f"\n➡️ {alg}")
+                print(f"   Iteraciones promedio: {s['prom_iteraciones']:.2f} ± {s['std_iteraciones']:.2f}")
+                print(f"   Tiempo promedio:      {s['prom_tiempo']:.4f} ± {s['std_tiempo']:.4f}")
+                print(f"   Valor final promedio: {s['prom_valor_final']:.6e}")
 
-    # Gradiente Descendente
-    x_gd, hist_gd = gradiente_descendente(func, x0, verbose=True)
-    print(f"\nGradiente Descendente → mínimo aprox en {x_gd}, f(x) = {func(x_gd):.6f}")
-
-    # Newton
-    x_newton, hist_newton = newton_method(func, x0, verbose=True)
-    print(f"\nNewton → mínimo aprox en {x_newton}, f(x) = {func(x_newton):.6f}")
-
-    # Gráfico de la función base
-    plot_surface(func, x_range=(-2, 2), y_range=(-2, 2), resolution=200, cmap='viridis')
+            analizar_resultados.graficar_comparaciones(stats)
+    else:
+        print("⚠️ No se encontró 'resultados.json'. Ejecuta primero los experimentos.")

@@ -1,9 +1,59 @@
-# algoritmos/newton.py (mejorado)
+"""
+newton.py
+-------------------------------------
+Implementación del método de Newton con regularización (damping y backtracking).
+
+El método de Newton utiliza la información de segunda derivada (Hessiana)
+para calcular pasos de actualización más informados, lo que suele garantizar
+una convergencia cuadrática cerca del mínimo.
+
+Incluye estrategias de:
+- Regularización de la Hessiana (mu * I)
+- Backtracking en el tamaño del paso
+- Manejo de errores numéricos
+
+Proyecto: Tarea Evaluativa - Optimización Numérica
+"""
+
 import numpy as np
 from autograd import grad, hessian
 import time
 
+# =====================================================
+# MÉTODO DE NEWTON
+# =====================================================
+
 def newton_method(f, x0, tol=1e-6, max_iter=200, mu0=1e-6, verbose=False):
+    """
+    Implementación robusta del método de Newton para optimización.
+
+    Parámetros:
+    ------------
+    f : callable
+        Función objetivo a minimizar.
+    x0 : array-like
+        Punto inicial (vector).
+    tol : float
+        Tolerancia para el gradiente.
+    max_iter : int
+        Número máximo de iteraciones.
+    mu0 : float
+        Parámetro inicial de regularización.
+    verbose : bool
+        Si True, imprime información iterativa.
+
+    Retorna:
+    --------
+    x : np.ndarray
+        Aproximación del punto mínimo encontrado.
+    history : list
+        Secuencia de puntos visitados durante el proceso.
+    f(x) : float
+        Valor de la función en el mínimo encontrado.
+    elapsed : float
+        Tiempo total de ejecución.
+    """
+
     grad_f = grad(f)
     hess_f = hessian(f)
     x = np.array(x0, dtype=float)
@@ -13,27 +63,33 @@ def newton_method(f, x0, tol=1e-6, max_iter=200, mu0=1e-6, verbose=False):
     for k in range(max_iter):
         g = grad_f(x)
         H = hess_f(x)
+
+        # Validación numérica
         if not np.all(np.isfinite(g)) or not np.all(np.isfinite(H)):
-            if verbose: print("Non-finite g or H, stopping.")
+            if verbose: print("Gradiente o Hessiana no finitos. Deteniendo.")
             break
+
         norm_g = np.linalg.norm(g)
         if norm_g < tol:
-            if verbose: print(f"Convergencia en iter {k}")
+            if verbose: print(f"Convergencia alcanzada en iteración {k}")
             break
 
         mu = mu0
         success = False
-        # intentar resolver con regularización creciente si singular
+
+        # =====================================================
+        # Regularización + backtracking adaptativo
+        # =====================================================
         for attempt in range(10):
             try:
-                # regularize Hessian
+                # Regularización de la Hessiana (para evitar singularidades)
                 H_reg = H + mu * np.eye(len(x))
                 d = -np.linalg.solve(H_reg, g)
             except np.linalg.LinAlgError:
-                mu *= 10
+                mu *= 10  # Incrementar regularización si falla
                 continue
 
-            # damping: backtracking on step length
+            # Búsqueda de línea: reducir paso si no mejora
             alpha = 1.0
             f_x = f(x)
             for _ in range(30):
@@ -51,13 +107,13 @@ def newton_method(f, x0, tol=1e-6, max_iter=200, mu0=1e-6, verbose=False):
                 x = x_new
                 history.append(x.copy())
                 if verbose:
-                    print(f"Iter {k}: f={f_new:.6e}, ||g||={norm_g:.3e}, alpha={alpha:.2e}, mu={mu:.1e}")
+                    print(f"Iter {k}: f={f_new:.6e}, ||g||={norm_g:.3e}, α={alpha:.2e}, μ={mu:.1e}")
                 break
             else:
-                mu *= 10
+                mu *= 10  # Aumentar regularización si no hay descenso
 
         if not success:
-            if verbose: print("Newton failed to find descent; stopping.")
+            if verbose: print("No se encontró dirección de descenso. Deteniendo.")
             break
 
     elapsed = time.time() - t0

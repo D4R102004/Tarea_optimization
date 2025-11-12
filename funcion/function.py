@@ -8,4 +8,4 @@ def func(X):
     Retorna valor escalar f(x, y)
     """
     x, y = X[0], X[1]
-    return (2*x**3*y - y**3)**2 + x**2
+    return (2 * x**3 * y - y**3)**2 + x**2
