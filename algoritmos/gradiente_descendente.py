@@ -114,6 +114,15 @@ def gradiente_descendente(f, x0, alpha0=1.0, alpha_max=1e2, rho=0.5, m1=1e-4,
         # Actualización de variables
         x = x_new
         f_x = f_new
+        # --- Protección numérica ---
+        x = np.clip(x, -100, 100)  # Mantiene los valores dentro del rango [-100,100]
+        f_x = safe_eval(f, x)      # Evalúa de forma segura
+
+        if not np.isfinite(f_x):
+            if verbose: print("⚠️ Valor no finito detectado, deteniendo el algoritmo.")
+            break
+        # -----------------------------
+
         history.append(x.copy())
 
         if verbose and k % 10 == 0:

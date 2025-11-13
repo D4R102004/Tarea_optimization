@@ -105,6 +105,13 @@ def newton_method(f, x0, tol=1e-6, max_iter=200, mu0=1e-6, verbose=False):
 
             if success:
                 x = x_new
+                # --- Protección numérica ---
+                x = np.clip(x, -100, 100)  # Limita valores extremos
+                if not np.all(np.isfinite(x)):
+                    if verbose: print("⚠️ Pérdida de estabilidad numérica. Terminando iteración.")
+                    break
+                # -----------------------------
+
                 history.append(x.copy())
                 if verbose:
                     print(f"Iter {k}: f={f_new:.6e}, ||g||={norm_g:.3e}, α={alpha:.2e}, μ={mu:.1e}")

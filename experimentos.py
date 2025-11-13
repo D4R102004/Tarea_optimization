@@ -9,13 +9,15 @@ from algoritmos.guardar_resultados import guardar_experimento
 # CONFIGURACIONES DE EXPERIMENTO
 # ----------------------------------------------
 puntos_iniciales = [
-    np.array([2.0, -3.0]),
-    np.array([-1.0, 1.5]),
-    np.array([0.5, 0.5])
+    np.array([50.0, -50.0]),
+    np.array([-100.0, 100.0]),
+    np.array([10.0, 10.0]),
+    np.array([-25.0, 75.0])
 ]
 
+
 alphas = [0.01, 0.05, 0.1]
-max_iter = 200
+max_iter = 5000
 
 # ----------------------------------------------
 # EJECUCIÓN DE EXPERIMENTOS
