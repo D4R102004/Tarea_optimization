@@ -10,6 +10,8 @@ Archivo principal para ejecutar el flujo completo:
 import os
 import experimentos
 import analizar_resultados
+from graficar import plot_surface
+from funcion.function import func
 
 if __name__ == "__main__":
     print("🚀 INICIANDO EXPERIMENTOS...")
@@ -33,3 +35,8 @@ if __name__ == "__main__":
             analizar_resultados.graficar_comparaciones(stats)
     else:
         print("⚠️ No se encontró 'resultados.json'. Ejecuta primero los experimentos.")
+
+    print("\n📈 GENERANDO GRÁFICO DE LA FUNCIÓN...")
+    plot_surface(func, x_range=(-2,2), y_range=(-2,2), resolution=300,
+                save_path='graficos/grafico_funcion.png', show=False)
+
