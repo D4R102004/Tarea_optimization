@@ -97,41 +97,48 @@ def calcular_estadisticas(experimentos):
 # GRAFICACIÓN DE RESULTADOS
 # =====================================================
 
-def graficar_comparaciones(estadisticas):
+def graficar_comparaciones(estadisticas, carpeta="graficos"):
     """
-    Crea gráficos comparativos de desempeño entre algoritmos.
+    Crea y guarda gráficos comparativos de desempeño entre algoritmos.
     - Tiempo promedio de ejecución
     - Iteraciones promedio
     - Valor final alcanzado
     """
+
+    # Crear carpeta si no existe
+    if not os.path.exists(carpeta):
+        os.makedirs(carpeta)
+
     algoritmos = list(estadisticas.keys())
     prom_tiempos = [estadisticas[a]["prom_tiempo"] for a in algoritmos]
     prom_iters = [estadisticas[a]["prom_iteraciones"] for a in algoritmos]
     prom_valores = [estadisticas[a]["prom_valor_final"] for a in algoritmos]
 
-    plt.figure(figsize=(15, 5))
-
     # --- Gráfico 1: Tiempo ---
-    plt.subplot(1, 3, 1)
+    plt.figure()
     plt.bar(algoritmos, prom_tiempos, color="skyblue")
     plt.title("Tiempo promedio (s)")
     plt.ylabel("Segundos")
+    plt.savefig(f"{carpeta}/tiempos.png", dpi=300)
+    plt.close()
 
     # --- Gráfico 2: Iteraciones ---
-    plt.subplot(1, 3, 2)
+    plt.figure()
     plt.bar(algoritmos, prom_iters, color="lightgreen")
     plt.title("Iteraciones promedio")
     plt.ylabel("Iteraciones")
+    plt.savefig(f"{carpeta}/iteraciones.png", dpi=300)
+    plt.close()
 
     # --- Gráfico 3: Valor final ---
-    plt.subplot(1, 3, 3)
+    plt.figure()
     plt.bar(algoritmos, prom_valores, color="salmon")
     plt.title("Valor final promedio f(x)")
     plt.ylabel("Valor de la función")
+    plt.savefig(f"{carpeta}/valores_finales.png", dpi=300)
+    plt.close()
 
-    plt.suptitle("Comparación entre algoritmos de optimización", fontsize=14)
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    plt.show()
+    print("📁 Gráficas guardadas en la carpeta 'graficos/'")
 
 
 # =====================================================

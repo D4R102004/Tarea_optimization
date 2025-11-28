@@ -13,7 +13,7 @@
             ],
             "valor": 5.634550456794957e-05,
             "iteraciones": 2001,
-            "tiempo": 0.5754964351654053,
+            "tiempo": 0.5227410793304443,
             "convergio": true
         }
     },
@@ -31,7 +31,25 @@
             ],
             "valor": 5.281470001064081e-09,
             "iteraciones": 111,
-            "tiempo": 0.04461669921875,
+            "tiempo": 0.03954434394836426,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -50.0,
+            -50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -1.340187146024637e-195,
+                -0.12020164097614948
+            ],
+            "valor": 3.0162155861376857e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5259485244750977,
             "convergio": true
         }
     },
@@ -49,7 +67,7 @@
             ],
             "valor": 4.656786505229194e-09,
             "iteraciones": 42,
-            "tiempo": 0.10089492797851562,
+            "tiempo": 0.07128047943115234,
             "convergio": true
         }
     },
@@ -67,7 +85,7 @@
             ],
             "valor": 239.05384569119494,
             "iteraciones": 2001,
-            "tiempo": 0.8202426433563232,
+            "tiempo": 0.7026066780090332,
             "convergio": true
         }
     },
@@ -85,7 +103,25 @@
             ],
             "valor": 16.71945662777846,
             "iteraciones": 2001,
-            "tiempo": 0.6501514911651611,
+            "tiempo": 0.60447096824646,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -50.0,
+            -25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                4.0889394093818225,
+                11.693156664954707
+            ],
+            "valor": 16.71945662777846,
+            "iteraciones": 2001,
+            "tiempo": 0.6170907020568848,
             "convergio": true
         }
     },
@@ -103,7 +139,7 @@
             ],
             "valor": 4.746618356573857e-09,
             "iteraciones": 41,
-            "tiempo": 0.08455801010131836,
+            "tiempo": 0.06766772270202637,
             "convergio": true
         }
     },
@@ -121,7 +157,7 @@
             ],
             "valor": 2300.6965622332,
             "iteraciones": 2001,
-            "tiempo": 0.7508182525634766,
+            "tiempo": 0.7362642288208008,
             "convergio": true
         }
     },
@@ -139,7 +175,25 @@
             ],
             "valor": 2251.47813787226,
             "iteraciones": 2001,
-            "tiempo": 1.208214282989502,
+            "tiempo": 0.7444117069244385,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -50.0,
+            -5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -47.44974328556643,
+                -3.65640760099519e-10
+            ],
+            "valor": 2251.47813787226,
+            "iteraciones": 2001,
+            "tiempo": 0.7339413166046143,
             "convergio": true
         }
     },
@@ -157,7 +211,7 @@
             ],
             "valor": 2.3787821232881387e-09,
             "iteraciones": 37,
-            "tiempo": 0.10945391654968262,
+            "tiempo": 0.0553593635559082,
             "convergio": true
         }
     },
@@ -175,7 +229,7 @@
             ],
             "valor": 2300.6965622332,
             "iteraciones": 2001,
-            "tiempo": 1.1215617656707764,
+            "tiempo": 0.7042129039764404,
             "convergio": true
         }
     },
@@ -193,7 +247,25 @@
             ],
             "valor": 2251.47813787226,
             "iteraciones": 2001,
-            "tiempo": 1.0405583381652832,
+            "tiempo": 0.7119932174682617,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -50.0,
+            5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -47.44974328556643,
+                3.65640760099519e-10
+            ],
+            "valor": 2251.47813787226,
+            "iteraciones": 2001,
+            "tiempo": 0.7175672054290771,
             "convergio": true
         }
     },
@@ -211,7 +283,7 @@
             ],
             "valor": 2.3787821232881387e-09,
             "iteraciones": 37,
-            "tiempo": 0.11249089241027832,
+            "tiempo": 0.056618690490722656,
             "convergio": true
         }
     },
@@ -229,7 +301,7 @@
             ],
             "valor": 239.05384569119494,
             "iteraciones": 2001,
-            "tiempo": 0.7572944164276123,
+            "tiempo": 0.689521312713623,
             "convergio": true
         }
     },
@@ -247,7 +319,25 @@
             ],
             "valor": 16.71945662777846,
             "iteraciones": 2001,
-            "tiempo": 0.7225008010864258,
+            "tiempo": 0.6146142482757568,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -50.0,
+            25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                4.0889394093818225,
+                -11.693156664954707
+            ],
+            "valor": 16.71945662777846,
+            "iteraciones": 2001,
+            "tiempo": 0.6157023906707764,
             "convergio": true
         }
     },
@@ -265,7 +355,7 @@
             ],
             "valor": 4.746618356573857e-09,
             "iteraciones": 41,
-            "tiempo": 0.11513638496398926,
+            "tiempo": 0.07349514961242676,
             "convergio": true
         }
     },
@@ -283,7 +373,7 @@
             ],
             "valor": 5.634550456794957e-05,
             "iteraciones": 2001,
-            "tiempo": 0.7169370651245117,
+            "tiempo": 0.5161335468292236,
             "convergio": true
         }
     },
@@ -301,7 +391,25 @@
             ],
             "valor": 5.281470001064081e-09,
             "iteraciones": 111,
-            "tiempo": 0.09693384170532227,
+            "tiempo": 0.03475069999694824,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -50.0,
+            50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -1.340187146024637e-195,
+                0.12020164097614948
+            ],
+            "valor": 3.0162155861376857e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5107808113098145,
             "convergio": true
         }
     },
@@ -319,7 +427,7 @@
             ],
             "valor": 4.656786505229194e-09,
             "iteraciones": 42,
-            "tiempo": 0.12113714218139648,
+            "tiempo": 0.0647268295288086,
             "convergio": true
         }
     },
@@ -337,7 +445,7 @@
             ],
             "valor": 54.92596422192419,
             "iteraciones": 2001,
-            "tiempo": 1.0631415843963623,
+            "tiempo": 0.6481859683990479,
             "convergio": true
         }
     },
@@ -355,7 +463,25 @@
             ],
             "valor": 82.75376023562502,
             "iteraciones": 2001,
-            "tiempo": 0.950333833694458,
+            "tiempo": 0.6905503273010254,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -25.0,
+            -50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                9.096909375323374,
+                -38.80215096643356
+            ],
+            "valor": 82.75376023562502,
+            "iteraciones": 2001,
+            "tiempo": 0.8030593395233154,
             "convergio": true
         }
     },
@@ -373,7 +499,7 @@
             ],
             "valor": 5.138071157895692e-09,
             "iteraciones": 40,
-            "tiempo": 0.12277030944824219,
+            "tiempo": 0.12650465965270996,
             "convergio": true
         }
     },
@@ -391,7 +517,7 @@
             ],
             "valor": 441.92365043615865,
             "iteraciones": 2001,
-            "tiempo": 1.2166504859924316,
+            "tiempo": 0.7448244094848633,
             "convergio": true
         }
     },
@@ -409,7 +535,25 @@
             ],
             "valor": 619.4563152288257,
             "iteraciones": 2001,
-            "tiempo": 1.168398380279541,
+            "tiempo": 0.7827198505401611,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -25.0,
+            -25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                24.888879324121188,
+                -3.579364132458443e-08
+            ],
+            "valor": 619.4563152288257,
+            "iteraciones": 2001,
+            "tiempo": 0.765796422958374,
             "convergio": true
         }
     },
@@ -427,7 +571,7 @@
             ],
             "valor": 2.360976271295036e-09,
             "iteraciones": 38,
-            "tiempo": 0.11597776412963867,
+            "tiempo": 0.06349468231201172,
             "convergio": true
         }
     },
@@ -445,7 +589,7 @@
             ],
             "valor": 50.20989524839129,
             "iteraciones": 2001,
-            "tiempo": 0.7416791915893555,
+            "tiempo": 0.6678338050842285,
             "convergio": true
         }
     },
@@ -463,7 +607,25 @@
             ],
             "valor": 125.4111916483142,
             "iteraciones": 2001,
-            "tiempo": 0.7553131580352783,
+            "tiempo": 0.7014236450195312,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -25.0,
+            -5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                11.198713837084389,
+                52.99894430489499
+            ],
+            "valor": 125.4111916483142,
+            "iteraciones": 2001,
+            "tiempo": 0.7220852375030518,
             "convergio": true
         }
     },
@@ -481,7 +643,7 @@
             ],
             "valor": 2.495517616399811e-09,
             "iteraciones": 36,
-            "tiempo": 0.0986638069152832,
+            "tiempo": 0.0570676326751709,
             "convergio": true
         }
     },
@@ -499,7 +661,7 @@
             ],
             "valor": 50.20989524839129,
             "iteraciones": 2001,
-            "tiempo": 0.7379722595214844,
+            "tiempo": 0.702286958694458,
             "convergio": true
         }
     },
@@ -517,7 +679,25 @@
             ],
             "valor": 125.4111916483142,
             "iteraciones": 2001,
-            "tiempo": 1.0835988521575928,
+            "tiempo": 0.7438230514526367,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -25.0,
+            5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                11.198713837084389,
+                -52.99894430489499
+            ],
+            "valor": 125.4111916483142,
+            "iteraciones": 2001,
+            "tiempo": 0.7075862884521484,
             "convergio": true
         }
     },
@@ -535,7 +715,7 @@
             ],
             "valor": 2.495517616399811e-09,
             "iteraciones": 36,
-            "tiempo": 0.10417628288269043,
+            "tiempo": 0.05653738975524902,
             "convergio": true
         }
     },
@@ -553,7 +733,7 @@
             ],
             "valor": 441.92365043615865,
             "iteraciones": 2001,
-            "tiempo": 0.920036792755127,
+            "tiempo": 0.6729676723480225,
             "convergio": true
         }
     },
@@ -571,7 +751,25 @@
             ],
             "valor": 619.4563152288257,
             "iteraciones": 2001,
-            "tiempo": 1.0978076457977295,
+            "tiempo": 0.9476208686828613,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -25.0,
+            25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                24.888879324121188,
+                3.579364132458443e-08
+            ],
+            "valor": 619.4563152288257,
+            "iteraciones": 2001,
+            "tiempo": 0.7151250839233398,
             "convergio": true
         }
     },
@@ -589,7 +787,7 @@
             ],
             "valor": 2.360976271295036e-09,
             "iteraciones": 38,
-            "tiempo": 0.10608291625976562,
+            "tiempo": 0.07252359390258789,
             "convergio": true
         }
     },
@@ -607,7 +805,7 @@
             ],
             "valor": 54.92596422192419,
             "iteraciones": 2001,
-            "tiempo": 1.1019821166992188,
+            "tiempo": 0.9359481334686279,
             "convergio": true
         }
     },
@@ -625,7 +823,25 @@
             ],
             "valor": 82.75376023562502,
             "iteraciones": 2001,
-            "tiempo": 1.3054325580596924,
+            "tiempo": 0.8156108856201172,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -25.0,
+            50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                9.096909375323374,
+                38.80215096643356
+            ],
+            "valor": 82.75376023562502,
+            "iteraciones": 2001,
+            "tiempo": 0.7568697929382324,
             "convergio": true
         }
     },
@@ -643,7 +859,7 @@
             ],
             "valor": 5.138071157895692e-09,
             "iteraciones": 40,
-            "tiempo": 0.12665438652038574,
+            "tiempo": 0.06454682350158691,
             "convergio": true
         }
     },
@@ -661,7 +877,7 @@
             ],
             "valor": 70.55178260775065,
             "iteraciones": 2001,
-            "tiempo": 0.874896764755249,
+            "tiempo": 0.7151825428009033,
             "convergio": true
         }
     },
@@ -679,7 +895,25 @@
             ],
             "valor": 77.24324031520106,
             "iteraciones": 2001,
-            "tiempo": 0.7657101154327393,
+            "tiempo": 0.8293497562408447,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -5.0,
+            -50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                8.78881335334695,
+                -36.84769805347354
+            ],
+            "valor": 77.24324031520106,
+            "iteraciones": 2001,
+            "tiempo": 0.7823917865753174,
             "convergio": true
         }
     },
@@ -697,7 +931,7 @@
             ],
             "valor": 2.6226674448315563e-09,
             "iteraciones": 34,
-            "tiempo": 0.09494233131408691,
+            "tiempo": 0.0661017894744873,
             "convergio": true
         }
     },
@@ -715,7 +949,7 @@
             ],
             "valor": 14.615915882347368,
             "iteraciones": 2001,
-            "tiempo": 0.7611265182495117,
+            "tiempo": 0.8266181945800781,
             "convergio": true
         }
     },
@@ -733,7 +967,25 @@
             ],
             "valor": 27.385818291923794,
             "iteraciones": 2001,
-            "tiempo": 0.8551375865936279,
+            "tiempo": 0.701369047164917,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -5.0,
+            -25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                5.233146035787115,
+                -16.93009210365755
+            ],
+            "valor": 27.385818291923794,
+            "iteraciones": 2001,
+            "tiempo": 0.6847207546234131,
             "convergio": true
         }
     },
@@ -751,7 +1003,7 @@
             ],
             "valor": 2.199800096386362e-09,
             "iteraciones": 34,
-            "tiempo": 0.12097835540771484,
+            "tiempo": 0.0553278923034668,
             "convergio": true
         }
     },
@@ -769,7 +1021,7 @@
             ],
             "valor": 6.853952128679638,
             "iteraciones": 2001,
-            "tiempo": 0.6362357139587402,
+            "tiempo": 0.5744879245758057,
             "convergio": true
         }
     },
@@ -787,7 +1039,25 @@
             ],
             "valor": 54.30283587545156,
             "iteraciones": 2001,
-            "tiempo": 0.6871554851531982,
+            "tiempo": 0.6346724033355713,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -5.0,
+            -5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                7.369016608356079,
+                -2.591353953959871e-05
+            ],
+            "valor": 54.30283587545156,
+            "iteraciones": 2001,
+            "tiempo": 0.6142287254333496,
             "convergio": true
         }
     },
@@ -805,7 +1075,7 @@
             ],
             "valor": 5.773752954605881e-09,
             "iteraciones": 28,
-            "tiempo": 0.08723616600036621,
+            "tiempo": 0.04701113700866699,
             "convergio": true
         }
     },
@@ -823,7 +1093,7 @@
             ],
             "valor": 6.853952128679638,
             "iteraciones": 2001,
-            "tiempo": 0.783301591873169,
+            "tiempo": 0.5733823776245117,
             "convergio": true
         }
     },
@@ -841,7 +1111,25 @@
             ],
             "valor": 54.30283587545156,
             "iteraciones": 2001,
-            "tiempo": 0.9202742576599121,
+            "tiempo": 0.6100902557373047,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -5.0,
+            5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                7.369016608356079,
+                2.591353953959871e-05
+            ],
+            "valor": 54.30283587545156,
+            "iteraciones": 2001,
+            "tiempo": 0.6725442409515381,
             "convergio": true
         }
     },
@@ -859,7 +1147,7 @@
             ],
             "valor": 5.773752954605881e-09,
             "iteraciones": 28,
-            "tiempo": 0.10185384750366211,
+            "tiempo": 0.04696774482727051,
             "convergio": true
         }
     },
@@ -877,7 +1165,7 @@
             ],
             "valor": 14.615915882347368,
             "iteraciones": 2001,
-            "tiempo": 0.9901096820831299,
+            "tiempo": 0.6426875591278076,
             "convergio": true
         }
     },
@@ -895,7 +1183,25 @@
             ],
             "valor": 27.385818291923794,
             "iteraciones": 2001,
-            "tiempo": 0.9126808643341064,
+            "tiempo": 0.6444141864776611,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -5.0,
+            25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                5.233146035787115,
+                16.93009210365755
+            ],
+            "valor": 27.385818291923794,
+            "iteraciones": 2001,
+            "tiempo": 0.7262578010559082,
             "convergio": true
         }
     },
@@ -913,7 +1219,7 @@
             ],
             "valor": 2.199800096386362e-09,
             "iteraciones": 34,
-            "tiempo": 0.15088367462158203,
+            "tiempo": 0.05569171905517578,
             "convergio": true
         }
     },
@@ -931,7 +1237,7 @@
             ],
             "valor": 70.55178260775065,
             "iteraciones": 2001,
-            "tiempo": 1.4775629043579102,
+            "tiempo": 0.6475048065185547,
             "convergio": true
         }
     },
@@ -949,7 +1255,25 @@
             ],
             "valor": 77.24324031520106,
             "iteraciones": 2001,
-            "tiempo": 1.0656476020812988,
+            "tiempo": 0.6631288528442383,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -5.0,
+            50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                8.78881335334695,
+                36.84769805347354
+            ],
+            "valor": 77.24324031520106,
+            "iteraciones": 2001,
+            "tiempo": 0.676886796951294,
             "convergio": true
         }
     },
@@ -967,7 +1291,7 @@
             ],
             "valor": 2.6226674448315563e-09,
             "iteraciones": 34,
-            "tiempo": 0.10512065887451172,
+            "tiempo": 0.053824663162231445,
             "convergio": true
         }
     },
@@ -985,7 +1309,7 @@
             ],
             "valor": 229.12285741817044,
             "iteraciones": 2001,
-            "tiempo": 1.3590786457061768,
+            "tiempo": 0.8169617652893066,
             "convergio": true
         }
     },
@@ -1003,7 +1327,25 @@
             ],
             "valor": 101.23103829214176,
             "iteraciones": 2001,
-            "tiempo": 1.254957914352417,
+            "tiempo": 0.7290887832641602,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            5.0,
+            -50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                10.061363634236876,
+                -45.13363025301392
+            ],
+            "valor": 101.23103829214176,
+            "iteraciones": 2001,
+            "tiempo": 0.7697014808654785,
             "convergio": true
         }
     },
@@ -1021,7 +1363,7 @@
             ],
             "valor": 2.6653215028193633e-09,
             "iteraciones": 24,
-            "tiempo": 0.0682370662689209,
+            "tiempo": 0.04453611373901367,
             "convergio": true
         }
     },
@@ -1039,7 +1381,7 @@
             ],
             "valor": 41.71794802446016,
             "iteraciones": 2001,
-            "tiempo": 0.7949538230895996,
+            "tiempo": 0.6609954833984375,
             "convergio": true
         }
     },
@@ -1057,7 +1399,25 @@
             ],
             "valor": 44.283474490764604,
             "iteraciones": 2001,
-            "tiempo": 0.74118971824646,
+            "tiempo": 0.7607014179229736,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            5.0,
+            -25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                6.654582889484663,
+                -24.27707007759293
+            ],
+            "valor": 44.283474490764604,
+            "iteraciones": 2001,
+            "tiempo": 0.6905505657196045,
             "convergio": true
         }
     },
@@ -1075,7 +1435,7 @@
             ],
             "valor": 2.7898656524433185e-09,
             "iteraciones": 30,
-            "tiempo": 0.08144521713256836,
+            "tiempo": 0.06538724899291992,
             "convergio": true
         }
     },
@@ -1093,7 +1453,7 @@
             ],
             "valor": 4.256410441019351,
             "iteraciones": 2001,
-            "tiempo": 1.0918517112731934,
+            "tiempo": 0.5669195652008057,
             "convergio": true
         }
     },
@@ -1111,7 +1471,25 @@
             ],
             "valor": 8.534106004222745e-06,
             "iteraciones": 2001,
-            "tiempo": 0.7731125354766846,
+            "tiempo": 0.48779821395874023,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            5.0,
+            -5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                4.993466562716367e-194,
+                0.1200199642022074
+            ],
+            "valor": 2.9889658794034025e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5333225727081299,
             "convergio": true
         }
     },
@@ -1129,7 +1507,7 @@
             ],
             "valor": 2.1456228485031674e-09,
             "iteraciones": 28,
-            "tiempo": 0.09969472885131836,
+            "tiempo": 0.06401252746582031,
             "convergio": true
         }
     },
@@ -1147,7 +1525,7 @@
             ],
             "valor": 4.256410441019351,
             "iteraciones": 2001,
-            "tiempo": 0.6820254325866699,
+            "tiempo": 0.5782923698425293,
             "convergio": true
         }
     },
@@ -1165,7 +1543,25 @@
             ],
             "valor": 8.534106004222745e-06,
             "iteraciones": 2001,
-            "tiempo": 0.6108462810516357,
+            "tiempo": 0.4866979122161865,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            5.0,
+            5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                4.993466562716367e-194,
+                -0.1200199642022074
+            ],
+            "valor": 2.9889658794034025e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.6214654445648193,
             "convergio": true
         }
     },
@@ -1183,7 +1579,7 @@
             ],
             "valor": 2.1456228485031674e-09,
             "iteraciones": 28,
-            "tiempo": 0.09066224098205566,
+            "tiempo": 0.05086016654968262,
             "convergio": true
         }
     },
@@ -1201,7 +1597,7 @@
             ],
             "valor": 41.71794802446016,
             "iteraciones": 2001,
-            "tiempo": 0.8417630195617676,
+            "tiempo": 0.6325664520263672,
             "convergio": true
         }
     },
@@ -1219,7 +1615,25 @@
             ],
             "valor": 44.283474490764604,
             "iteraciones": 2001,
-            "tiempo": 1.4998595714569092,
+            "tiempo": 0.6492757797241211,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            5.0,
+            25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                6.654582889484663,
+                24.27707007759293
+            ],
+            "valor": 44.283474490764604,
+            "iteraciones": 2001,
+            "tiempo": 0.6680231094360352,
             "convergio": true
         }
     },
@@ -1237,7 +1651,7 @@
             ],
             "valor": 2.7898656524433185e-09,
             "iteraciones": 30,
-            "tiempo": 0.1053764820098877,
+            "tiempo": 0.04909968376159668,
             "convergio": true
         }
     },
@@ -1255,7 +1669,7 @@
             ],
             "valor": 229.12285741817044,
             "iteraciones": 2001,
-            "tiempo": 1.2306945323944092,
+            "tiempo": 0.7029833793640137,
             "convergio": true
         }
     },
@@ -1273,7 +1687,25 @@
             ],
             "valor": 101.23103829214176,
             "iteraciones": 2001,
-            "tiempo": 1.1800665855407715,
+            "tiempo": 0.6836605072021484,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            5.0,
+            50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                10.061363634236876,
+                45.13363025301392
+            ],
+            "valor": 101.23103829214176,
+            "iteraciones": 2001,
+            "tiempo": 0.6804823875427246,
             "convergio": true
         }
     },
@@ -1291,7 +1723,7 @@
             ],
             "valor": 2.6653215028193633e-09,
             "iteraciones": 24,
-            "tiempo": 0.08114218711853027,
+            "tiempo": 0.040343523025512695,
             "convergio": true
         }
     },
@@ -1309,7 +1741,7 @@
             ],
             "valor": 175.4425774652302,
             "iteraciones": 2001,
-            "tiempo": 1.2491788864135742,
+            "tiempo": 0.6471233367919922,
             "convergio": true
         }
     },
@@ -1327,7 +1759,25 @@
             ],
             "valor": 8.267575232485196e-06,
             "iteraciones": 2001,
-            "tiempo": 0.9101614952087402,
+            "tiempo": 0.5025575160980225,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            25.0,
+            -50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -1.781401957030844e-195,
+                0.11986083413403667
+            ],
+            "valor": 2.965266794024507e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5060267448425293,
             "convergio": true
         }
     },
@@ -1345,7 +1795,7 @@
             ],
             "valor": 1.9095067634655808e-11,
             "iteraciones": 30,
-            "tiempo": 0.09427905082702637,
+            "tiempo": 0.0444941520690918,
             "convergio": true
         }
     },
@@ -1363,7 +1813,7 @@
             ],
             "valor": 8.241041986232252,
             "iteraciones": 2001,
-            "tiempo": 1.1896140575408936,
+            "tiempo": 0.654529333114624,
             "convergio": true
         }
     },
@@ -1381,7 +1831,25 @@
             ],
             "valor": 20.299796945035247,
             "iteraciones": 2001,
-            "tiempo": 1.197765588760376,
+            "tiempo": 0.688443660736084,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            25.0,
+            -25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                4.505526924475151,
+                13.52489220785617
+            ],
+            "valor": 20.299796945035247,
+            "iteraciones": 2001,
+            "tiempo": 0.6977114677429199,
             "convergio": true
         }
     },
@@ -1399,7 +1867,7 @@
             ],
             "valor": 4.408829852976231e-09,
             "iteraciones": 37,
-            "tiempo": 0.13599014282226562,
+            "tiempo": 0.05576515197753906,
             "convergio": true
         }
     },
@@ -1417,7 +1885,7 @@
             ],
             "valor": 513.5530277753754,
             "iteraciones": 2001,
-            "tiempo": 1.3443331718444824,
+            "tiempo": 0.6667351722717285,
             "convergio": true
         }
     },
@@ -1435,7 +1903,25 @@
             ],
             "valor": 43.70933340097409,
             "iteraciones": 2001,
-            "tiempo": 1.2629504203796387,
+            "tiempo": 0.6523323059082031,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            25.0,
+            -5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                6.6113033175325535,
+                24.040618834503633
+            ],
+            "valor": 43.70933340097409,
+            "iteraciones": 2001,
+            "tiempo": 0.6810901165008545,
             "convergio": true
         }
     },
@@ -1453,7 +1939,7 @@
             ],
             "valor": 2.0156874006989574e-09,
             "iteraciones": 35,
-            "tiempo": 0.19262385368347168,
+            "tiempo": 0.05775785446166992,
             "convergio": true
         }
     },
@@ -1471,7 +1957,7 @@
             ],
             "valor": 513.5530277753754,
             "iteraciones": 2001,
-            "tiempo": 1.3731646537780762,
+            "tiempo": 0.745539665222168,
             "convergio": true
         }
     },
@@ -1489,7 +1975,25 @@
             ],
             "valor": 43.70933340097409,
             "iteraciones": 2001,
-            "tiempo": 1.2495195865631104,
+            "tiempo": 0.6557114124298096,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            25.0,
+            5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                6.6113033175325535,
+                -24.040618834503633
+            ],
+            "valor": 43.70933340097409,
+            "iteraciones": 2001,
+            "tiempo": 0.652137041091919,
             "convergio": true
         }
     },
@@ -1507,7 +2011,7 @@
             ],
             "valor": 2.0156874006989574e-09,
             "iteraciones": 35,
-            "tiempo": 0.1663680076599121,
+            "tiempo": 0.05555844306945801,
             "convergio": true
         }
     },
@@ -1525,7 +2029,7 @@
             ],
             "valor": 8.241041986232252,
             "iteraciones": 2001,
-            "tiempo": 1.124288558959961,
+            "tiempo": 0.5893487930297852,
             "convergio": true
         }
     },
@@ -1543,7 +2047,25 @@
             ],
             "valor": 20.299796945035247,
             "iteraciones": 2001,
-            "tiempo": 1.2124674320220947,
+            "tiempo": 0.6390023231506348,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            25.0,
+            25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                4.505526924475151,
+                -13.52489220785617
+            ],
+            "valor": 20.299796945035247,
+            "iteraciones": 2001,
+            "tiempo": 0.6197104454040527,
             "convergio": true
         }
     },
@@ -1561,7 +2083,7 @@
             ],
             "valor": 4.408829852976231e-09,
             "iteraciones": 37,
-            "tiempo": 0.10866761207580566,
+            "tiempo": 0.10380911827087402,
             "convergio": true
         }
     },
@@ -1579,7 +2101,7 @@
             ],
             "valor": 175.4425774652302,
             "iteraciones": 2001,
-            "tiempo": 1.1198394298553467,
+            "tiempo": 0.7348289489746094,
             "convergio": true
         }
     },
@@ -1597,7 +2119,25 @@
             ],
             "valor": 8.267575232485196e-06,
             "iteraciones": 2001,
-            "tiempo": 0.9029660224914551,
+            "tiempo": 0.5311846733093262,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            25.0,
+            50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -1.781401957030844e-195,
+                -0.11986083413403667
+            ],
+            "valor": 2.965266794024507e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5117731094360352,
             "convergio": true
         }
     },
@@ -1615,7 +2155,7 @@
             ],
             "valor": 1.9095067634655808e-11,
             "iteraciones": 30,
-            "tiempo": 0.09044933319091797,
+            "tiempo": 0.04829263687133789,
             "convergio": true
         }
     },
@@ -1633,7 +2173,7 @@
             ],
             "valor": 8.720343548558205,
             "iteraciones": 2001,
-            "tiempo": 1.2230699062347412,
+            "tiempo": 0.6395730972290039,
             "convergio": true
         }
     },
@@ -1651,7 +2191,25 @@
             ],
             "valor": 221.89500544170502,
             "iteraciones": 2001,
-            "tiempo": 1.4579341411590576,
+            "tiempo": 0.9474043846130371,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            50.0,
+            -50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                14.896140621849913,
+                81.30657052026247
+            ],
+            "valor": 221.89500544170502,
+            "iteraciones": 2001,
+            "tiempo": 0.7862491607666016,
             "convergio": true
         }
     },
@@ -1669,7 +2227,7 @@
             ],
             "valor": 6.056557270539863e-09,
             "iteraciones": 42,
-            "tiempo": 0.12571263313293457,
+            "tiempo": 0.06370115280151367,
             "convergio": true
         }
     },
@@ -1687,7 +2245,7 @@
             ],
             "valor": 158.63480786184735,
             "iteraciones": 2001,
-            "tiempo": 1.2016239166259766,
+            "tiempo": 0.7044897079467773,
             "convergio": true
         }
     },
@@ -1705,7 +2263,25 @@
             ],
             "valor": 117.86616316417545,
             "iteraciones": 2001,
-            "tiempo": 1.1839723587036133,
+            "tiempo": 0.7083957195281982,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            50.0,
+            -25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                10.85661804231522,
+                -1.094587883138261e-06
+            ],
+            "valor": 117.86616316417545,
+            "iteraciones": 2001,
+            "tiempo": 0.6923871040344238,
             "convergio": true
         }
     },
@@ -1723,7 +2299,7 @@
             ],
             "valor": 6.143042379134338e-09,
             "iteraciones": 32,
-            "tiempo": 0.12018179893493652,
+            "tiempo": 0.05330991744995117,
             "convergio": true
         }
     },
@@ -1741,7 +2317,7 @@
             ],
             "valor": 529.1005318351195,
             "iteraciones": 2001,
-            "tiempo": 1.676098346710205,
+            "tiempo": 0.7291357517242432,
             "convergio": true
         }
     },
@@ -1759,7 +2335,25 @@
             ],
             "valor": 291.0882886991676,
             "iteraciones": 2001,
-            "tiempo": 1.5073225498199463,
+            "tiempo": 0.8009936809539795,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            50.0,
+            -5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                17.061309700372355,
+                99.662906278616
+            ],
+            "valor": 291.0882886991676,
+            "iteraciones": 2001,
+            "tiempo": 0.7483997344970703,
             "convergio": true
         }
     },
@@ -1777,7 +2371,7 @@
             ],
             "valor": 4.724853449005354e-09,
             "iteraciones": 36,
-            "tiempo": 0.10561060905456543,
+            "tiempo": 0.059880733489990234,
             "convergio": true
         }
     },
@@ -1795,7 +2389,7 @@
             ],
             "valor": 529.1005318351195,
             "iteraciones": 2001,
-            "tiempo": 1.5196442604064941,
+            "tiempo": 0.6806535720825195,
             "convergio": true
         }
     },
@@ -1813,7 +2407,25 @@
             ],
             "valor": 291.0882886991676,
             "iteraciones": 2001,
-            "tiempo": 1.317188024520874,
+            "tiempo": 0.7359166145324707,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            50.0,
+            5.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                17.061309700372355,
+                -99.662906278616
+            ],
+            "valor": 291.0882886991676,
+            "iteraciones": 2001,
+            "tiempo": 0.8093881607055664,
             "convergio": true
         }
     },
@@ -1831,7 +2443,7 @@
             ],
             "valor": 4.724853449005354e-09,
             "iteraciones": 36,
-            "tiempo": 0.13228654861450195,
+            "tiempo": 0.059784889221191406,
             "convergio": true
         }
     },
@@ -1849,7 +2461,7 @@
             ],
             "valor": 158.63480786184735,
             "iteraciones": 2001,
-            "tiempo": 1.2112383842468262,
+            "tiempo": 0.7040119171142578,
             "convergio": true
         }
     },
@@ -1867,7 +2479,25 @@
             ],
             "valor": 117.86616316417545,
             "iteraciones": 2001,
-            "tiempo": 1.3970398902893066,
+            "tiempo": 0.6634736061096191,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            50.0,
+            25.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                10.85661804231522,
+                1.094587883138261e-06
+            ],
+            "valor": 117.86616316417545,
+            "iteraciones": 2001,
+            "tiempo": 0.6497416496276855,
             "convergio": true
         }
     },
@@ -1885,7 +2515,7 @@
             ],
             "valor": 6.143042379134338e-09,
             "iteraciones": 32,
-            "tiempo": 0.10912370681762695,
+            "tiempo": 0.054871559143066406,
             "convergio": true
         }
     },
@@ -1903,7 +2533,7 @@
             ],
             "valor": 8.720343548558205,
             "iteraciones": 2001,
-            "tiempo": 1.4189846515655518,
+            "tiempo": 0.5964064598083496,
             "convergio": true
         }
     },
@@ -1921,7 +2551,25 @@
             ],
             "valor": 221.89500544170502,
             "iteraciones": 2001,
-            "tiempo": 1.4810259342193604,
+            "tiempo": 0.7120327949523926,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            50.0,
+            50.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                14.896140621849913,
+                -81.30657052026247
+            ],
+            "valor": 221.89500544170502,
+            "iteraciones": 2001,
+            "tiempo": 0.7698757648468018,
             "convergio": true
         }
     },
@@ -1939,7 +2587,7 @@
             ],
             "valor": 6.056557270539863e-09,
             "iteraciones": 42,
-            "tiempo": 0.17235445976257324,
+            "tiempo": 0.07051420211791992,
             "convergio": true
         }
     },
@@ -1957,7 +2605,7 @@
             ],
             "valor": 9.184982728544084e-05,
             "iteraciones": 2001,
-            "tiempo": 1.0127618312835693,
+            "tiempo": 0.508028507232666,
             "convergio": true
         }
     },
@@ -1975,7 +2623,25 @@
             ],
             "valor": 8.430360395113923e-06,
             "iteraciones": 2001,
-            "tiempo": 1.1361443996429443,
+            "tiempo": 0.6494770050048828,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            0.5,
+            0.5
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                8.478748937796168e-195,
+                0.12002428553712356
+            ],
+            "valor": 2.9896116462336657e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5287666320800781,
             "convergio": true
         }
     },
@@ -1993,7 +2659,7 @@
             ],
             "valor": 5.505131761530825e-09,
             "iteraciones": 10,
-            "tiempo": 0.025202035903930664,
+            "tiempo": 0.02098822593688965,
             "convergio": true
         }
     },
@@ -2011,7 +2677,7 @@
             ],
             "valor": 9.930793552106558e-05,
             "iteraciones": 2001,
-            "tiempo": 0.9845747947692871,
+            "tiempo": 0.5611984729766846,
             "convergio": true
         }
     },
@@ -2029,7 +2695,25 @@
             ],
             "valor": 8.472699799424205e-06,
             "iteraciones": 2001,
-            "tiempo": 1.0028278827667236,
+            "tiempo": 0.5300478935241699,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            1.0,
+            -1.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                9.24365367693602e-195,
+                -0.11587457979179105
+            ],
+            "valor": 2.420633466652719e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5002341270446777,
             "convergio": true
         }
     },
@@ -2047,7 +2731,7 @@
             ],
             "valor": 7.15322222436936e-09,
             "iteraciones": 8,
-            "tiempo": 0.019713640213012695,
+            "tiempo": 0.011599540710449219,
             "convergio": true
         }
     },
@@ -2065,7 +2749,7 @@
             ],
             "valor": 9.213202705430429e-05,
             "iteraciones": 2001,
-            "tiempo": 0.9192461967468262,
+            "tiempo": 0.5119216442108154,
             "convergio": true
         }
     },
@@ -2083,7 +2767,25 @@
             ],
             "valor": 8.42790447294899e-06,
             "iteraciones": 2001,
-            "tiempo": 1.0851686000823975,
+            "tiempo": 0.5230147838592529,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -1.0,
+            1.0
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                1.0652269809298359e-194,
+                -0.11994566955004039
+            ],
+            "valor": 2.977881683016653e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5281882286071777,
             "convergio": true
         }
     },
@@ -2101,7 +2803,7 @@
             ],
             "valor": 2.001677364647984e-09,
             "iteraciones": 18,
-            "tiempo": 0.07336306571960449,
+            "tiempo": 0.06422042846679688,
             "convergio": true
         }
     },
@@ -2119,7 +2821,7 @@
             ],
             "valor": 9.322310491118753e-07,
             "iteraciones": 2001,
-            "tiempo": 1.0633621215820312,
+            "tiempo": 0.5101325511932373,
             "convergio": true
         }
     },
@@ -2137,7 +2839,25 @@
             ],
             "valor": 7.24301286326716e-07,
             "iteraciones": 2001,
-            "tiempo": 1.0502030849456787,
+            "tiempo": 0.496753454208374,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            0.1,
+            -0.1
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                1.5135763098694997e-195,
+                -0.09066497846792813
+            ],
+            "valor": 5.554402867746463e-07,
+            "iteraciones": 2001,
+            "tiempo": 0.5268497467041016,
             "convergio": true
         }
     },
@@ -2155,547 +2875,727 @@
             ],
             "valor": 5.33044800227854e-09,
             "iteraciones": 4,
-            "tiempo": 0.013286590576171875,
+            "tiempo": 0.006448507308959961,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            6.451055130254353,
-            -32.24498485683279
+            -2.932529182776051,
+            25.944933743975454
         ],
         "alpha": 0.01,
         "resultado": {
             "minimo": [
-                7.9013437573139385,
-                -31.40989144084628
+                -4.96865822027152e-07,
+                -1.6011224183131442e-10
             ],
-            "valor": 62.431233298734746,
-            "iteraciones": 2001,
-            "tiempo": 1.3463389873504639,
+            "valor": 2.468756450987175e-13,
+            "iteraciones": 1009,
+            "tiempo": 0.26390552520751953,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            6.451055130254353,
-            -32.24498485683279
+            -2.932529182776051,
+            25.944933743975454
         ],
         "alpha": 0.05,
         "resultado": {
             "minimo": [
-                7.958798002894141,
-                -31.753106982927203
+                2.8784703328316272,
+                6.906594665388893
             ],
-            "valor": 63.34246627239907,
+            "valor": 8.285683815779382,
             "iteraciones": 2001,
-            "tiempo": 1.2844610214233398,
+            "tiempo": 0.6264405250549316,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -2.932529182776051,
+            25.944933743975454
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                2.8784703328316272,
+                6.906594665388893
+            ],
+            "valor": 8.285683815779382,
+            "iteraciones": 2001,
+            "tiempo": 0.6157000064849854,
             "convergio": true
         }
     },
     {
         "algoritmo": "Newton",
         "punto_inicial": [
-            6.451055130254353,
-            -32.24498485683279
+            -2.932529182776051,
+            25.944933743975454
         ],
         "alpha": "auto",
         "resultado": {
             "minimo": [
-                -1.389008748654251e-72,
-                0.03617763983255879
+                -4.457279096189235e-63,
+                0.04392859719284556
             ],
-            "valor": 2.242029821534502e-09,
+            "valor": 7.1859469857075865e-09,
+            "iteraciones": 30,
+            "tiempo": 0.05304551124572754,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            24.406790643493053,
+            13.672868867409804
+        ],
+        "alpha": 0.01,
+        "resultado": {
+            "minimo": [
+                4.959055530630813e-07,
+                -6.59283571861347e-11
+            ],
+            "valor": 2.4592231755880055e-13,
+            "iteraciones": 763,
+            "tiempo": 0.2010517120361328,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            24.406790643493053,
+            13.672868867409804
+        ],
+        "alpha": 0.05,
+        "resultado": {
+            "minimo": [
+                -1.2605825194004203e-94,
+                0.14279804654833098
+            ],
+            "valor": 8.478784524383634e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5112230777740479,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            24.406790643493053,
+            13.672868867409804
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -4.090051371202134e-07,
+                -0.032146590833398936
+            ],
+            "valor": 1.1037618043842207e-09,
+            "iteraciones": 46,
+            "tiempo": 0.011803627014160156,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Newton",
+        "punto_inicial": [
+            24.406790643493053,
+            13.672868867409804
+        ],
+        "alpha": "auto",
+        "resultado": {
+            "minimo": [
+                -1.825688281178202e-62,
+                0.042123307230738
+            ],
+            "valor": 5.586435256403663e-09,
             "iteraciones": 36,
-            "tiempo": 0.11368727684020996,
+            "tiempo": 0.05125737190246582,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            21.27052848474019,
-            -13.792742696867357
+            -16.050609676615693,
+            -11.539700204744811
         ],
         "alpha": 0.01,
         "resultado": {
             "minimo": [
-                4.933916393729432e-07,
-                5.410170061093905e-10
+                4.062046097908355,
+                -11.577974164374764
             ],
-            "valor": 2.434353098031204e-13,
-            "iteraciones": 748,
-            "tiempo": 0.4380052089691162,
+            "valor": 16.500223309866687,
+            "iteraciones": 2001,
+            "tiempo": 0.5921778678894043,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            21.27052848474019,
-            -13.792742696867357
+            -16.050609676615693,
+            -11.539700204744811
         ],
         "alpha": 0.05,
         "resultado": {
             "minimo": [
-                -7.360326412734973,
-                -1.194703678231045e-05
+                4.91750173566083e-07,
+                0.005959708076575223
             ],
-            "valor": 54.17449567628995,
+            "valor": 2.8662565172071043e-13,
+            "iteraciones": 1240,
+            "tiempo": 0.3833284378051758,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -16.050609676615693,
+            -11.539700204744811
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                3.6223420722176317e-88,
+                -0.11507291833977376
+            ],
+            "valor": 2.321874616452584e-06,
             "iteraciones": 2001,
-            "tiempo": 1.1591627597808838,
+            "tiempo": 0.5602555274963379,
             "convergio": true
         }
     },
     {
         "algoritmo": "Newton",
         "punto_inicial": [
-            21.27052848474019,
-            -13.792742696867357
+            -16.050609676615693,
+            -11.539700204744811
         ],
         "alpha": "auto",
         "resultado": {
             "minimo": [
-                -1.1463417469173184e-53,
-                -0.03624987763657754
+                -8.110733693749247e-64,
+                -0.04188446076510974
             ],
-            "valor": 2.2690249404624566e-09,
-            "iteraciones": 33,
-            "tiempo": 0.13427448272705078,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            15.67200432645543,
-            34.9726724277147
-        ],
-        "alpha": 0.01,
-        "resultado": {
-            "minimo": [
-                6.77022851443559,
-                24.91265422482696
-            ],
-            "valor": 45.83599475464097,
-            "iteraciones": 2001,
-            "tiempo": 1.261139154434204,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            15.67200432645543,
-            34.9726724277147
-        ],
-        "alpha": 0.05,
-        "resultado": {
-            "minimo": [
-                1.8904021577853176,
-                3.676380659068139
-            ],
-            "valor": 3.5739082586772795,
-            "iteraciones": 2001,
-            "tiempo": 1.2038474082946777,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Newton",
-        "punto_inicial": [
-            15.67200432645543,
-            34.9726724277147
-        ],
-        "alpha": "auto",
-        "resultado": {
-            "minimo": [
-                -3.1904097595722977e-66,
-                -0.03641926740944665
-            ],
-            "valor": 2.3333894667240143e-09,
-            "iteraciones": 38,
-            "tiempo": 0.10073065757751465,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            -8.718555828737475,
-            18.717820307103743
-        ],
-        "alpha": 0.01,
-        "resultado": {
-            "minimo": [
-                2.4235898347392104,
-                5.335949013902613
-            ],
-            "valor": 5.87381893564348,
-            "iteraciones": 2001,
-            "tiempo": 1.093794822692871,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            -8.718555828737475,
-            18.717820307103743
-        ],
-        "alpha": 0.05,
-        "resultado": {
-            "minimo": [
-                4.798309892345795,
-                14.864404129844335
-            ],
-            "valor": 23.02377885553363,
-            "iteraciones": 2001,
-            "tiempo": 1.1330814361572266,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Newton",
-        "punto_inicial": [
-            -8.718555828737475,
-            18.717820307103743
-        ],
-        "alpha": "auto",
-        "resultado": {
-            "minimo": [
-                -1.779509597276838e-14,
-                -0.035672651855510086
-            ],
-            "valor": 2.060688618040087e-09,
-            "iteraciones": 21,
-            "tiempo": 0.08385825157165527,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            22.25457623508263,
-            -35.8252087493706
-        ],
-        "alpha": 0.01,
-        "resultado": {
-            "minimo": [
-                7.153207037505669,
-                27.056162846732697
-            ],
-            "valor": 51.1683724733266,
-            "iteraciones": 2001,
-            "tiempo": 1.236344814300537,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            22.25457623508263,
-            -35.8252087493706
-        ],
-        "alpha": 0.05,
-        "resultado": {
-            "minimo": [
-                6.832175909737687,
-                -25.255360676210454
-            ],
-            "valor": 46.678629390753684,
-            "iteraciones": 2001,
-            "tiempo": 1.470123052597046,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Newton",
-        "punto_inicial": [
-            22.25457623508263,
-            -35.8252087493706
-        ],
-        "alpha": "auto",
-        "resultado": {
-            "minimo": [
-                -9.864065364472296e-63,
-                -0.04234084717266444
-            ],
-            "valor": 5.761787802358847e-09,
-            "iteraciones": 38,
-            "tiempo": 0.13329195976257324,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            17.322634005418216,
-            -36.14609256672757
-        ],
-        "alpha": 0.01,
-        "resultado": {
-            "minimo": [
-                15.94454040463378,
-                -6.768594228793516e-07
-            ],
-            "valor": 254.22839882626286,
-            "iteraciones": 2001,
-            "tiempo": 1.3511989116668701,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            17.322634005418216,
-            -36.14609256672757
-        ],
-        "alpha": 0.05,
-        "resultado": {
-            "minimo": [
-                11.832685994889781,
-                5.2782617744619146e-06
-            ],
-            "valor": 140.01276372718024,
-            "iteraciones": 2001,
-            "tiempo": 1.2889156341552734,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Newton",
-        "punto_inicial": [
-            17.322634005418216,
-            -36.14609256672757
-        ],
-        "alpha": "auto",
-        "resultado": {
-            "minimo": [
-                7.386379790073235e-20,
-                -0.04318273198297899
-            ],
-            "valor": 6.484264004812044e-09,
-            "iteraciones": 29,
-            "tiempo": 0.18529820442199707,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            -10.906832436848497,
-            17.821548270241422
-        ],
-        "alpha": 0.01,
-        "resultado": {
-            "minimo": [
-                3.880372191238103e-18,
-                0.21456619907848182
-            ],
-            "valor": 9.758158048544902e-05,
-            "iteraciones": 2001,
-            "tiempo": 1.1780486106872559,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Gradiente Descendente",
-        "punto_inicial": [
-            -10.906832436848497,
-            17.821548270241422
-        ],
-        "alpha": 0.05,
-        "resultado": {
-            "minimo": [
-                4.494624054799782,
-                13.475828131446331
-            ],
-            "valor": 20.201666530146564,
-            "iteraciones": 2001,
-            "tiempo": 1.2769269943237305,
-            "convergio": true
-        }
-    },
-    {
-        "algoritmo": "Newton",
-        "punto_inicial": [
-            -10.906832436848497,
-            17.821548270241422
-        ],
-        "alpha": "auto",
-        "resultado": {
-            "minimo": [
-                -1.0952874557327535e-64,
-                0.04235015284750631
-            ],
-            "valor": 5.769389935437817e-09,
+            "valor": 5.399052758717559e-09,
             "iteraciones": 34,
-            "tiempo": 0.12001991271972656,
+            "tiempo": 0.05359530448913574,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            -13.868223396388053,
-            -30.171765650922005
+            15.941599642279215,
+            19.795610441360722
         ],
         "alpha": 0.01,
         "resultado": {
             "minimo": [
-                -1.399412261504544e-19,
-                -0.173898521865236
+                4.001322536937266,
+                11.319339759881036
             ],
-            "valor": 2.7655107000033896e-05,
+            "valor": 16.010607653699225,
             "iteraciones": 2001,
-            "tiempo": 0.8831000328063965,
+            "tiempo": 0.6018729209899902,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            -13.868223396388053,
-            -30.171765650922005
+            15.941599642279215,
+            19.795610441360722
         ],
         "alpha": 0.05,
         "resultado": {
             "minimo": [
-                6.808092911394635,
-                -25.121942697106082
+                -6.726414988956863e-93,
+                0.13391632735769904
             ],
-            "valor": 46.35012983157501,
+            "valor": 5.767680331149131e-06,
             "iteraciones": 2001,
-            "tiempo": 1.1963448524475098,
+            "tiempo": 0.4901161193847656,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            15.941599642279215,
+            19.795610441360722
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -6.0038500952017756e-195,
+                0.11609230688153684
+            ],
+            "valor": 2.448052048191236e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.4959406852722168,
             "convergio": true
         }
     },
     {
         "algoritmo": "Newton",
         "punto_inicial": [
-            -13.868223396388053,
-            -30.171765650922005
+            15.941599642279215,
+            19.795610441360722
         ],
         "alpha": "auto",
         "resultado": {
             "minimo": [
-                -2.1423854392710476e-65,
-                -0.039533372459979434
+                -2.6315647361678656e-55,
+                -0.043379913966212734
             ],
-            "valor": 3.8175363832003325e-09,
+            "valor": 6.663955957862693e-09,
             "iteraciones": 35,
-            "tiempo": 0.17668700218200684,
+            "tiempo": 0.05579686164855957,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            11.317526899176997,
-            8.244591628989689
+            38.23082574726344,
+            20.131131802983965
         ],
         "alpha": 0.01,
         "resultado": {
             "minimo": [
-                -10.520521949949798,
-                4.868864764681796e-06
+                -3.5241923684875143e-20,
+                -0.2135752663919203
             ],
-            "valor": 110.68151066922515,
+            "valor": 9.490863785628216e-05,
             "iteraciones": 2001,
-            "tiempo": 1.2412192821502686,
+            "tiempo": 0.5240862369537354,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            11.317526899176997,
-            8.244591628989689
+            38.23082574726344,
+            20.131131802983965
         ],
         "alpha": 0.05,
         "resultado": {
             "minimo": [
-                -2.9407859469474816e-94,
-                0.14182138614133893
+                2.364393719282682e-58,
+                -0.1604001211391409
             ],
-            "valor": 8.136738424186436e-06,
+            "valor": 1.7030529528475706e-05,
             "iteraciones": 2001,
-            "tiempo": 0.9606852531433105,
+            "tiempo": 0.5216131210327148,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            38.23082574726344,
+            20.131131802983965
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                3.7204283509320634e-123,
+                -0.13470405843441674
+            ],
+            "valor": 5.974259508076851e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5891726016998291,
             "convergio": true
         }
     },
     {
         "algoritmo": "Newton",
         "punto_inicial": [
-            11.317526899176997,
-            8.244591628989689
+            38.23082574726344,
+            20.131131802983965
         ],
         "alpha": "auto",
         "resultado": {
             "minimo": [
-                -4.178763652632507e-56,
-                0.04367835855317212
+                -2.1009802117530097e-56,
+                0.04153642968450667
             ],
-            "valor": 6.943810407871988e-09,
-            "iteraciones": 31,
-            "tiempo": 0.11539268493652344,
+            "valor": 5.135408326065884e-09,
+            "iteraciones": 38,
+            "tiempo": 0.0585331916809082,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            2.9983811545331776,
-            36.97373276299038
+            -36.05352148015118,
+            15.987009867656319
         ],
         "alpha": 0.01,
         "resultado": {
             "minimo": [
-                -1.810517389788582e-19,
-                0.13492070402465953
+                5.075854656391253,
+                -16.172562209548595
             ],
-            "valor": 6.032142495515836e-06,
+            "valor": 25.764302132250204,
             "iteraciones": 2001,
-            "tiempo": 1.060837745666504,
+            "tiempo": 0.6312646865844727,
             "convergio": true
         }
     },
     {
         "algoritmo": "Gradiente Descendente",
         "punto_inicial": [
-            2.9983811545331776,
-            36.97373276299038
+            -36.05352148015118,
+            15.987009867656319
         ],
         "alpha": 0.05,
         "resultado": {
             "minimo": [
-                21.424483340981702,
-                2.9866760452002074e-08
+                3.3284831282597733,
+                8.587932253063618
             ],
-            "valor": 459.00848677306544,
+            "valor": 11.078941011559653,
             "iteraciones": 2001,
-            "tiempo": 1.2305219173431396,
+            "tiempo": 0.6089484691619873,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -36.05352148015118,
+            15.987009867656319
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                3.3284831282597733,
+                8.587932253063618
+            ],
+            "valor": 11.078941011559653,
+            "iteraciones": 2001,
+            "tiempo": 0.6622307300567627,
             "convergio": true
         }
     },
     {
         "algoritmo": "Newton",
         "punto_inicial": [
-            2.9983811545331776,
-            36.97373276299038
+            -36.05352148015118,
+            15.987009867656319
         ],
         "alpha": "auto",
         "resultado": {
             "minimo": [
-                -6.820728096791725e-41,
-                0.04313354010822433
+                -1.1173890137052613e-73,
+                0.042871056545487674
             ],
-            "valor": 6.44007049509185e-09,
-            "iteraciones": 27,
-            "tiempo": 0.10474252700805664,
+            "valor": 6.2084776247470545e-09,
+            "iteraciones": 41,
+            "tiempo": 0.06228184700012207,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            23.376898993700394,
+            39.048214701230194
+        ],
+        "alpha": 0.01,
+        "resultado": {
+            "minimo": [
+                5.231329063655564,
+                -0.00017847498501099483
+            ],
+            "valor": 27.369415253630198,
+            "iteraciones": 2001,
+            "tiempo": 0.6367952823638916,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            23.376898993700394,
+            39.048214701230194
+        ],
+        "alpha": 0.05,
+        "resultado": {
+            "minimo": [
+                -34.390020122563044,
+                -1.3137462109216278e-08
+            ],
+            "valor": 1182.673485172321,
+            "iteraciones": 2001,
+            "tiempo": 0.7181148529052734,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            23.376898993700394,
+            39.048214701230194
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -34.390020122563044,
+                -1.3137462109216278e-08
+            ],
+            "valor": 1182.673485172321,
+            "iteraciones": 2001,
+            "tiempo": 0.7966105937957764,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Newton",
+        "punto_inicial": [
+            23.376898993700394,
+            39.048214701230194
+        ],
+        "alpha": "auto",
+        "resultado": {
+            "minimo": [
+                -3.6169648378715654e-62,
+                -0.04276022212842619
+            ],
+            "valor": 6.112793368783366e-09,
+            "iteraciones": 40,
+            "tiempo": 0.07322454452514648,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            18.492206354508454,
+            25.910337008899788
+        ],
+        "alpha": 0.01,
+        "resultado": {
+            "minimo": [
+                4.786415648797905,
+                -14.809170585059373
+            ],
+            "valor": 22.90977816488363,
+            "iteraciones": 2001,
+            "tiempo": 0.7133133411407471,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            18.492206354508454,
+            25.910337008899788
+        ],
+        "alpha": 0.05,
+        "resultado": {
+            "minimo": [
+                1.5268889850390803e-91,
+                0.14314921619299037
+            ],
+            "valor": 8.6046626134797e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.49225807189941406,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            18.492206354508454,
+            25.910337008899788
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                2.1602917877105838e-193,
+                0.1202824937001582
+            ],
+            "valor": 3.0284090822167314e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.5059881210327148,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Newton",
+        "punto_inicial": [
+            18.492206354508454,
+            25.910337008899788
+        ],
+        "alpha": "auto",
+        "resultado": {
+            "minimo": [
+                -1.8408468746331254e-60,
+                -0.035970138555888286
+            ],
+            "valor": 2.1659711330080994e-09,
+            "iteraciones": 35,
+            "tiempo": 0.07758474349975586,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            24.40799990517837,
+            17.70360985407769
+        ],
+        "alpha": 0.01,
+        "resultado": {
+            "minimo": [
+                -13.912252378376506,
+                -1.7490270659641439e-06
+            ],
+            "valor": 193.55085496295294,
+            "iteraciones": 2001,
+            "tiempo": 0.8355679512023926,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            24.40799990517837,
+            17.70360985407769
+        ],
+        "alpha": 0.05,
+        "resultado": {
+            "minimo": [
+                -4.908802696743714e-93,
+                -0.138920626984281
+            ],
+            "valor": 7.187873219169532e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.517390251159668,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            24.40799990517837,
+            17.70360985407769
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                -3.3156001592250836e-195,
+                0.12015167641444677
+            ],
+            "valor": 3.008700845081968e-06,
+            "iteraciones": 2001,
+            "tiempo": 0.4972984790802002,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Newton",
+        "punto_inicial": [
+            24.40799990517837,
+            17.70360985407769
+        ],
+        "alpha": "auto",
+        "resultado": {
+            "minimo": [
+                -1.652717628232312e-74,
+                0.03955759055027817
+            ],
+            "valor": 3.831589595904662e-09,
+            "iteraciones": 38,
+            "tiempo": 0.10535931587219238,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -6.693362968737517,
+            -11.954411582915647
+        ],
+        "alpha": 0.01,
+        "resultado": {
+            "minimo": [
+                3.1017226604345702,
+                -7.725355494449705
+            ],
+            "valor": 9.620687694322017,
+            "iteraciones": 2001,
+            "tiempo": 0.6113836765289307,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -6.693362968737517,
+            -11.954411582915647
+        ],
+        "alpha": 0.05,
+        "resultado": {
+            "minimo": [
+                3.2094293365013358,
+                -8.131268051619477
+            ],
+            "valor": 10.30045145202596,
+            "iteraciones": 2001,
+            "tiempo": 0.6991198062896729,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Gradiente Descendente",
+        "punto_inicial": [
+            -6.693362968737517,
+            -11.954411582915647
+        ],
+        "alpha": 0.1,
+        "resultado": {
+            "minimo": [
+                3.2094293365013358,
+                -8.131268051619477
+            ],
+            "valor": 10.30045145202596,
+            "iteraciones": 2001,
+            "tiempo": 0.6169261932373047,
+            "convergio": true
+        }
+    },
+    {
+        "algoritmo": "Newton",
+        "punto_inicial": [
+            -6.693362968737517,
+            -11.954411582915647
+        ],
+        "alpha": "auto",
+        "resultado": {
+            "minimo": [
+                1.0955332097104219e-23,
+                0.037214798684493566
+            ],
+            "valor": 2.6564035011301e-09,
+            "iteraciones": 22,
+            "tiempo": 0.03558945655822754,
             "convergio": true
         }
     }

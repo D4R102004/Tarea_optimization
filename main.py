@@ -12,6 +12,7 @@ import experimentos
 import analizar_resultados
 from graficar import plot_surface
 from funcion.function import func
+from graficar import grafica_trayectorias 
 
 if __name__ == "__main__":
     print("🚀 INICIANDO EXPERIMENTOS...")
@@ -39,4 +40,8 @@ if __name__ == "__main__":
     print("\n📈 GENERANDO GRÁFICO DE LA FUNCIÓN...")
     plot_surface(func, x_range=(-2,2), y_range=(-2,2), resolution=300,
                 save_path='graficos/grafico_funcion.png', show=False)
+    print("\nGENERANDO GRÁFICO DE LA FUNCIÓN CON METODOS...")
+    grafica_trayectorias.correr_grafico()
+
+
 
